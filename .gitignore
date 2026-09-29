@@ -216,3 +216,23 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Bioinformatics large files
+data/raw/
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.sam
+*.bai
+*.vcf
+*.vcf.gz
+*.vcf.gz.tbi
+*.fa
+*.fasta
+*.gtf
+*.gff
+*.bed
+*.log
+_STARtmp/
