@@ -70,3 +70,9 @@ Direct small-molecule activation of GNAS is hindered by its "undruggable" struct
 ## Computational Workflow
 
 The pipeline is implemented using standard bioinformatics tools and deployed on a cloud-based Galaxy infrastructure[cite: 3, 4]:
+
+## Computational Workflow Architecture
+
+The end-to-end WGS variant discovery and filtering pipeline was designed and executed within Galaxy, ensuring modularity and complete reproducibility:
+
+![Galaxy Workflow Architecture](figures/galaxy_workflow_canvas.png)
