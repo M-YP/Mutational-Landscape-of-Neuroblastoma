@@ -1,0 +1,536 @@
+ID	Gene Name	Species
+NT5E	5'-nucleotidase ecto(NT5E)	Homo sapiens	
+ATIC	5-aminoimidazole-4-carboxamide ribonucleotide formyltransferase/IMP cyclohydrolase(ATIC)	Homo sapiens	
+ADAM10	ADAM metallopeptidase domain 10(ADAM10)	Homo sapiens	
+ADAM15	ADAM metallopeptidase domain 15(ADAM15)	Homo sapiens	
+AEBP1	AE binding protein 1(AEBP1)	Homo sapiens	
+ARF1	ARF GTPase 1(ARF1)	Homo sapiens	
+ARF5	ARF GTPase 5(ARF5)	Homo sapiens	
+ARL3	ARF like GTPase 3(ARL3)	Homo sapiens	
+AHCTF1	AT-hook containing transcription factor 1(AHCTF1)	Homo sapiens	
+ABCB6	ATP binding cassette subfamily B member 6 (LAN blood group)(ABCB6)	Homo sapiens	
+ACLY	ATP citrate lyase(ACLY)	Homo sapiens	
+ATP5F1A	ATP synthase F1 subunit alpha(ATP5F1A)	Homo sapiens	
+ATP5F1B	ATP synthase F1 subunit beta(ATP5F1B)	Homo sapiens	
+ATP6V0C	ATPase H+ transporting V0 subunit c(ATP6V0C)	Homo sapiens	
+ATP6V0D1	ATPase H+ transporting V0 subunit d1(ATP6V0D1)	Homo sapiens	
+ATP6V1B2	ATPase H+ transporting V1 subunit B2(ATP6V1B2)	Homo sapiens	
+ATP6V1C1	ATPase H+ transporting V1 subunit C1(ATP6V1C1)	Homo sapiens	
+ATP6V1E1	ATPase H+ transporting V1 subunit E1(ATP6V1E1)	Homo sapiens	
+ATP6V1F	ATPase H+ transporting V1 subunit F(ATP6V1F)	Homo sapiens	
+ATP6V1G1	ATPase H+ transporting V1 subunit G1(ATP6V1G1)	Homo sapiens	
+ATP6V1H	ATPase H+ transporting V1 subunit H(ATP6V1H)	Homo sapiens	
+ATP6AP1	ATPase H+ transporting accessory protein 1(ATP6AP1)	Homo sapiens	
+ATP1A1	ATPase Na+/K+ transporting subunit alpha 1(ATP1A1)	Homo sapiens	
+ATAD2	ATPase family AAA domain containing 2(ATAD2)	Homo sapiens	
+ATP2B1	ATPase plasma membrane Ca2+ transporting 1(ATP2B1)	Homo sapiens	
+ATP2B2	ATPase plasma membrane Ca2+ transporting 2(ATP2B2)	Homo sapiens	
+AUP1	AUP1 lipid droplet regulating VLDL assembly factor(AUP1)	Homo sapiens	
+ALYREF	Aly/REF export factor(ALYREF)	Homo sapiens	
+BAIAP2	BAR/IMD domain containing adaptor protein 2(BAIAP2)	Homo sapiens	
+BAX	BCL2 associated X, apoptosis regulator(BAX)	Homo sapiens	
+BROX	BRO1 domain and CAAX motif containing(BROX)	Homo sapiens	
+CSK	C-terminal Src kinase(CSK)	Homo sapiens	
+CD46	CD46 molecule(CD46)	Homo sapiens	
+CD47	CD47 molecule(CD47)	Homo sapiens	
+CD58	CD58 molecule(CD58)	Homo sapiens	
+CD63	CD63 molecule(CD63)	Homo sapiens	
+CD81	CD81 molecule(CD81)	Homo sapiens	
+CD9	CD9 molecule(CD9)	Homo sapiens	
+CDC42BPB	CDC42 binding protein kinase beta(CDC42BPB)	Homo sapiens	
+CDK5RAP2	CDK5 regulatory subunit associated protein 2(CDK5RAP2)	Homo sapiens	
+COPA	COPI coat complex subunit alpha(COPA)	Homo sapiens	
+CYRIB	CYFIP related Rac1 interactor B(CYRIB)	Homo sapiens	
+COASY	Coenzyme A synthase(COASY)	Homo sapiens	
+DDX19B	DEAD-box helicase 19B(DDX19B)	Homo sapiens	
+DDX23	DEAD-box helicase 23(DDX23)	Homo sapiens	
+DDX3X	DEAD-box helicase 3 X-linked(DDX3X)	Homo sapiens	
+DDX5	DEAD-box helicase 5(DDX5)	Homo sapiens	
+DHX36	DEAH-box helicase 36(DHX36)	Homo sapiens	
+DNAJA1	DnaJ heat shock protein family (Hsp40) member A1(DNAJA1)	Homo sapiens	
+DNAJA2	DnaJ heat shock protein family (Hsp40) member A2(DNAJA2)	Homo sapiens	
+DNAJC13	DnaJ heat shock protein family (Hsp40) member C13(DNAJC13)	Homo sapiens	
+DNAJC7	DnaJ heat shock protein family (Hsp40) member C7(DNAJC7)	Homo sapiens	
+EML5	EMAP like 5(EML5)	Homo sapiens	
+FKBP4	FKBP prolyl isomerase 4(FKBP4)	Homo sapiens	
+FKBP5	FKBP prolyl isomerase 5(FKBP5)	Homo sapiens	
+GNA13	G protein subunit alpha 13(GNA13)	Homo sapiens	
+GNAI1	G protein subunit alpha i1(GNAI1)	Homo sapiens	
+GNAI3	G protein subunit alpha i3(GNAI3)	Homo sapiens	
+GNAQ	G protein subunit alpha q(GNAQ)	Homo sapiens	
+GNB1	G protein subunit beta 1(GNB1)	Homo sapiens	
+GNB2	G protein subunit beta 2(GNB2)	Homo sapiens	
+GNB4	G protein subunit beta 4(GNB4)	Homo sapiens	
+GNG4	G protein subunit gamma 4(GNG4)	Homo sapiens	
+GPR155	G protein-coupled receptor 155(GPR155)	Homo sapiens	
+GRK4	G protein-coupled receptor kinase 4(GRK4)	Homo sapiens	
+GDI2	GDP dissociation inhibitor 2(GDI2)	Homo sapiens	
+GMPPA	GDP-mannose pyrophosphorylase A(GMPPA)	Homo sapiens	
+GNAS	GNAS complex locus(GNAS)	Homo sapiens	
+H2AZ1	H2A.Z variant histone 1(H2AZ1)	Homo sapiens	
+H3-3B	H3.3 histone B(H3-3B)	Homo sapiens	
+HUWE1	HECT, UBA and WWE domain containing E3 ubiquitin protein ligase 1(HUWE1)	Homo sapiens	
+ASAH1	N-acylsphingosine amidohydrolase 1(ASAH1)	Homo sapiens	
+NAA16	N-alpha-acetyltransferase 16, NatA auxiliary subunit(NAA16)	Homo sapiens	
+NAA50	N-alpha-acetyltransferase 50, NatE catalytic subunit(NAA50)	Homo sapiens	
+NCKAP1	NCK associated protein 1(NCKAP1)	Homo sapiens	
+NDRG3	NDRG family member 3(NDRG3)	Homo sapiens	
+NIPBL	NIPBL cohesin loading factor(NIPBL)	Homo sapiens	
+NME1	NME/NM23 nucleoside diphosphate kinase 1(NME1)	Homo sapiens	
+NME2	NME/NM23 nucleoside diphosphate kinase 2(NME2)	Homo sapiens	
+NSUN2	NOP2/Sun RNA methyltransferase 2(NSUN2)	Homo sapiens	
+NRAS	NRAS proto-oncogene, GTPase(NRAS)	Homo sapiens	
+OTUB1	OTU deubiquitinase, ubiquitin aldehyde binding 1(OTUB1)	Homo sapiens	
+OLA1	Obg like ATPase 1(OLA1)	Homo sapiens	
+PTTG1IP	PTTG1 interacting protein(PTTG1IP)	Homo sapiens	
+RAB10	RAB10, member RAS oncogene family(RAB10)	Homo sapiens	
+RAB11A	RAB11A, member RAS oncogene family(RAB11A)	Homo sapiens	
+RAB14	RAB14, member RAS oncogene family(RAB14)	Homo sapiens	
+RAB1A	RAB1A, member RAS oncogene family(RAB1A)	Homo sapiens	
+RAB2A	RAB2A, member RAS oncogene family(RAB2A)	Homo sapiens	
+RAB5C	RAB5C, member RAS oncogene family(RAB5C)	Homo sapiens	
+RAB6A	RAB6A, member RAS oncogene family(RAB6A)	Homo sapiens	
+RAB7A	RAB7A, member RAS oncogene family(RAB7A)	Homo sapiens	
+RAB8B	RAB8B, member RAS oncogene family(RAB8B)	Homo sapiens	
+RAN	RAN, member RAS oncogene family(RAN)	Homo sapiens	
+RBL2	RB transcriptional corepressor like 2(RBL2)	Homo sapiens	
+RLF	RLF zinc finger(RLF)	Homo sapiens	
+RBMX	RNA binding motif protein X-linked(RBMX)	Homo sapiens	
+RACGAP1	Rac GTPase activating protein 1(RACGAP1)	Homo sapiens	
+RAC3	Rac family small GTPase 3(RAC3)	Homo sapiens	
+RSU1	Ras suppressor protein 1(RSU1)	Homo sapiens	
+ARHGDIA	Rho GDP dissociation inhibitor alpha(ARHGDIA)	Homo sapiens	
+ARHGEF12	Rho guanine nucleotide exchange factor 12(ARHGEF12)	Homo sapiens	
+RHOBTB3	Rho related BTB domain containing 3(RHOBTB3)	Homo sapiens	
+RUVBL1	RuvB like AAA ATPase 1(RUVBL1)	Homo sapiens	
+S100A6	S100 calcium binding protein A6(S100A6)	Homo sapiens	
+SERBP1	SERPINE1 mRNA binding protein 1(SERBP1)	Homo sapiens	
+SNF8	SNF8 subunit of ESCRT-II(SNF8)	Homo sapiens	
+SRPRA	SRP receptor subunit alpha(SRPRA)	Homo sapiens	
+STAMBP	STAM binding protein(STAMBP)	Homo sapiens	
+TAX1BP1	Tax1 binding protein 1(TAX1BP1)	Homo sapiens	
+TUFM	Tu translation elongation factor, mitochondrial(TUFM)	Homo sapiens	
+UBAC1	UBA domain containing 1(UBAC1)	Homo sapiens	
+UBXN6	UBX domain protein 6(UBXN6)	Homo sapiens	
+UXS1	UDP-glucuronate decarboxylase 1(UXS1)	Homo sapiens	
+VPS28	VPS28 subunit of ESCRT-I(VPS28)	Homo sapiens	
+VPS35	VPS35 retromer complex component(VPS35)	Homo sapiens	
+WDR1	WD repeat domain 1(WDR1)	Homo sapiens	
+YBX1	Y-box binding protein 1(YBX1)	Homo sapiens	
+ACAT1	acetyl-CoA acetyltransferase 1(ACAT1)	Homo sapiens	
+ACP1	acid phosphatase 1(ACP1)	Homo sapiens	
+ANP32B	acidic nuclear phosphoprotein 32 family member B(ANP32B)	Homo sapiens	
+ACTB	actin beta(ACTB)	Homo sapiens	
+ACTG1	actin gamma 1(ACTG1)	Homo sapiens	
+ACTR1A	actin related protein 1A(ACTR1A)	Homo sapiens	
+ACTR2	actin related protein 2(ACTR2)	Homo sapiens	
+ARPC2	actin related protein 2/3 complex subunit 2(ARPC2)	Homo sapiens	
+ARPC5	actin related protein 2/3 complex subunit 5(ARPC5)	Homo sapiens	
+ALCAM	activated leukocyte cell adhesion molecule(ALCAM)	Homo sapiens	
+AHSA1	activator of HSP90 ATPase activity 1(AHSA1)	Homo sapiens	
+ACSL4	acyl-CoA synthetase long chain family member 4(ACSL4)	Homo sapiens	
+AP1M1	adaptor related protein complex 1 subunit mu 1(AP1M1)	Homo sapiens	
+AP2M1	adaptor related protein complex 2 subunit mu 1(AP2M1)	Homo sapiens	
+AHCYL1	adenosylhomocysteinase like 1(AHCYL1)	Homo sapiens	
+AHCY	adenosylhomocysteinase(AHCY)	Homo sapiens	
+AK2	adenylate kinase 2(AK2)	Homo sapiens	
+ADSS2	adenylosuccinate synthase 2(ADSS2)	Homo sapiens	
+AARS1	alanyl-tRNA synthetase 1(AARS1)	Homo sapiens	
+ALDH7A1	aldehyde dehydrogenase 7 family member A1(ALDH7A1)	Homo sapiens	
+AKR1B1	aldo-keto reductase family 1 member B(AKR1B1)	Homo sapiens	
+ALDOA	aldolase, fructose-bisphosphate A(ALDOA)	Homo sapiens	
+GAA	alpha glucosidase(GAA)	Homo sapiens	
+AASDHPPT	aminoadipate-semialdehyde dehydrogenase-phosphopantetheinyl transferase(AASDHPPT)	Homo sapiens	
+ALAD	aminolevulinate dehydratase(ALAD)	Homo sapiens	
+NPEPPS	aminopeptidase puromycin sensitive(NPEPPS)	Homo sapiens	
+APLP2	amyloid beta precursor like protein 2(APLP2)	Homo sapiens	
+APP	amyloid beta precursor protein(APP)	Homo sapiens	
+ANXA11	annexin A11(ANXA11)	Homo sapiens	
+ANXA5	annexin A5(ANXA5)	Homo sapiens	
+ANXA6	annexin A6(ANXA6)	Homo sapiens	
+ASS1	argininosuccinate synthase 1(ASS1)	Homo sapiens	
+RNPEP	arginyl aminopeptidase(RNPEP)	Homo sapiens	
+RARS1	arginyl-tRNA synthetase 1(RARS1)	Homo sapiens	
+NARS1	asparaginyl-tRNA synthetase 1(NARS1)	Homo sapiens	
+DARS1	aspartyl-tRNA synthetase 1(DARS1)	Homo sapiens	
+BSG	basigin (Ok blood group)(BSG)	Homo sapiens	
+BGN	biglycan(BGN)	Homo sapiens	
+BASP1	brain abundant membrane attached signal protein 1(BASP1)	Homo sapiens	
+BPTF	bromodomain PHD finger transcription factor(BPTF)	Homo sapiens	
+CIB1	calcium and integrin binding 1(CIB1)	Homo sapiens	
+CACNA2D1	calcium voltage-gated channel auxiliary subunit alpha2delta 1(CACNA2D1)	Homo sapiens	
+CACYBP	calcyclin binding protein(CACYBP)	Homo sapiens	
+CANX	calnexin(CANX)	Homo sapiens	
+CAPN2	calpain 2(CAPN2)	Homo sapiens	
+CALR	calreticulin(CALR)	Homo sapiens	
+CAPZB	capping actin protein of muscle Z-line subunit beta(CAPZB)	Homo sapiens	
+CAD	carbamoyl-phosphate synthetase 2, aspartate transcarbamylase, and dihydroorotase(CAD)	Homo sapiens	
+CES2	carboxylesterase 2(CES2)	Homo sapiens	
+CMBL	carboxymethylenebutenolidase homolog(CMBL)	Homo sapiens	
+CPE	carboxypeptidase E(CPE)	Homo sapiens	
+CPVL	carboxypeptidase vitellogenic like(CPVL)	Homo sapiens	
+CAT	catalase(CAT)	Homo sapiens	
+CTNNB1	catenin beta 1(CTNNB1)	Homo sapiens	
+CTNND1	catenin delta 1(CTNND1)	Homo sapiens	
+CTSA	cathepsin A(CTSA)	Homo sapiens	
+CTSB	cathepsin B(CTSB)	Homo sapiens	
+CTSC	cathepsin C(CTSC)	Homo sapiens	
+CTSD	cathepsin D(CTSD)	Homo sapiens	
+CTSF	cathepsin F(CTSF)	Homo sapiens	
+CRABP2	cellular retinoic acid binding protein 2(CRABP2)	Homo sapiens	
+CEP250	centrosomal protein 250(CEP250)	Homo sapiens	
+CCT2	chaperonin containing TCP1 subunit 2(CCT2)	Homo sapiens	
+CCT3	chaperonin containing TCP1 subunit 3(CCT3)	Homo sapiens	
+CCT4	chaperonin containing TCP1 subunit 4(CCT4)	Homo sapiens	
+CCT5	chaperonin containing TCP1 subunit 5(CCT5)	Homo sapiens	
+CCT6A	chaperonin containing TCP1 subunit 6A(CCT6A)	Homo sapiens	
+CCT7	chaperonin containing TCP1 subunit 7(CCT7)	Homo sapiens	
+CCT8	chaperonin containing TCP1 subunit 8(CCT8)	Homo sapiens	
+CHMP4B	charged multivesicular body protein 4B(CHMP4B)	Homo sapiens	
+CLIC4	chloride intracellular channel 4(CLIC4)	Homo sapiens	
+C11orf54	chromosome 11 open reading frame 54(C11orf54)	Homo sapiens	
+CSE1L	chromosome segregation 1 like(CSE1L)	Homo sapiens	
+CS	citrate synthase(CS)	Homo sapiens	
+CLTC	clathrin heavy chain(CLTC)	Homo sapiens	
+CFL1	cofilin 1(CFL1)	Homo sapiens	
+CC2D1A	coiled-coil and C2 domain containing 1A(CC2D1A)	Homo sapiens	
+CHCHD3	coiled-coil-helix-coiled-coil-helix domain containing 3(CHCHD3)	Homo sapiens	
+COL6A2	collagen type VI alpha 2 chain(COL6A2)	Homo sapiens	
+C7	complement C7(C7)	Homo sapiens	
+CNTN1	contactin 1(CNTN1)	Homo sapiens	
+CPNE1	copine 1(CPNE1)	Homo sapiens	
+CPNE3	copine 3(CPNE3)	Homo sapiens	
+CPNE7	copine 7(CPNE7)	Homo sapiens	
+CKB	creatine kinase B(CKB)	Homo sapiens	
+CUL3	cullin 3(CUL3)	Homo sapiens	
+CUL4B	cullin 4B(CUL4B)	Homo sapiens	
+CAND1	cullin associated and neddylation dissociated 1(CAND1)	Homo sapiens	
+CDK1	cyclin dependent kinase 1(CDK1)	Homo sapiens	
+CTH	cystathionine gamma-lyase(CTH)	Homo sapiens	
+CHORDC1	cysteine and histidine rich domain containing 1(CHORDC1)	Homo sapiens	
+DDB1	damage specific DNA binding protein 1(DDB1)	Homo sapiens	
+DUT	deoxyuridine triphosphatase(DUT)	Homo sapiens	
+DCXR	dicarbonyl and L-xylulose reductase(DCXR)	Homo sapiens	
+DICER1	dicer 1, ribonuclease III(DICER1)	Homo sapiens	
+DPYSL2	dihydropyrimidinase like 2(DPYSL2)	Homo sapiens	
+DLG1	discs large MAGUK scaffold protein 1(DLG1)	Homo sapiens	
+DDC	dopa decarboxylase(DDC)	Homo sapiens	
+DBNL	drebrin like(DBNL)	Homo sapiens	
+DCTN2	dynactin subunit 2(DCTN2)	Homo sapiens	
+DNM1	dynamin 1(DNM1)	Homo sapiens	
+DNM2	dynamin 2(DNM2)	Homo sapiens	
+DYNC1H1	dynein cytoplasmic 1 heavy chain 1(DYNC1H1)	Homo sapiens	
+DYNC2H1	dynein cytoplasmic 2 heavy chain 1(DYNC2H1)	Homo sapiens	
+ERP44	endoplasmic reticulum protein 44(ERP44)	Homo sapiens	
+ECE1	endothelin converting enzyme 1(ECE1)	Homo sapiens	
+ENO1	enolase 1(ENO1)	Homo sapiens	
+ENO2	enolase 2(ENO2)	Homo sapiens	
+EPB41L2	erythrocyte membrane protein band 4.1 like 2(EPB41L2)	Homo sapiens	
+ESD	esterase D(ESD)	Homo sapiens	
+EEF1A1	eukaryotic translation elongation factor 1 alpha 1(EEF1A1)	Homo sapiens	
+EEF1G	eukaryotic translation elongation factor 1 gamma(EEF1G)	Homo sapiens	
+EEF2	eukaryotic translation elongation factor 2(EEF2)	Homo sapiens	
+EIF2S1	eukaryotic translation initiation factor 2 subunit alpha(EIF2S1)	Homo sapiens	
+EIF3B	eukaryotic translation initiation factor 3 subunit B(EIF3B)	Homo sapiens	
+EIF3E	eukaryotic translation initiation factor 3 subunit E(EIF3E)	Homo sapiens	
+EIF3H	eukaryotic translation initiation factor 3 subunit H(EIF3H)	Homo sapiens	
+EIF3I	eukaryotic translation initiation factor 3 subunit I(EIF3I)	Homo sapiens	
+EIF4A1	eukaryotic translation initiation factor 4A1(EIF4A1)	Homo sapiens	
+EIF6	eukaryotic translation initiation factor 6(EIF6)	Homo sapiens	
+EXOSC9	exosome component 9(EXOSC9)	Homo sapiens	
+EXT2	exostosin glycosyltransferase 2(EXT2)	Homo sapiens	
+EYS	eyes shut homolog(EYS)	Homo sapiens	
+FAM234A	family with sequence similarity 234 member A(FAM234A)	Homo sapiens	
+FSCN1	fascin actin-bundling protein 1(FSCN1)	Homo sapiens	
+FASN	fatty acid synthase(FASN)	Homo sapiens	
+FTH1	ferritin heavy chain 1(FTH1)	Homo sapiens	
+FTL	ferritin light chain(FTL)	Homo sapiens	
+FBL	fibrillarin(FBL)	Homo sapiens	
+FBLN1	fibulin 1(FBLN1)	Homo sapiens	
+FLNA	filamin A(FLNA)	Homo sapiens	
+FSTL1	follistatin like 1(FSTL1)	Homo sapiens	
+LGALS1	galectin 1(LGALS1)	Homo sapiens	
+GGCT	gamma-glutamylcyclotransferase(GGCT)	Homo sapiens	
+GPI	glucose-6-phosphate isomerase(GPI)	Homo sapiens	
+GANAB	glucosidase II alpha subunit(GANAB)	Homo sapiens	
+GLUL	glutamate-ammonia ligase(GLUL)	Homo sapiens	
+GOT1	glutamic-oxaloacetic transaminase 1(GOT1)	Homo sapiens	
+GOT2	glutamic-oxaloacetic transaminase 2(GOT2)	Homo sapiens	
+GSTM2	glutathione S-transferase mu 2(GSTM2)	Homo sapiens	
+GSTM3	glutathione S-transferase mu 3(GSTM3)	Homo sapiens	
+GSTO1	glutathione S-transferase omega 1(GSTO1)	Homo sapiens	
+GSTP1	glutathione S-transferase pi 1(GSTP1)	Homo sapiens	
+GPX4	glutathione peroxidase 4(GPX4)	Homo sapiens	
+GSR	glutathione-disulfide reductase(GSR)	Homo sapiens	
+GAPDH	glyceraldehyde-3-phosphate dehydrogenase(GAPDH)	Homo sapiens	
+PYGB	glycogen phosphorylase B(PYGB)	Homo sapiens	
+GARS1	glycyl-tRNA synthetase 1(GARS1)	Homo sapiens	
+GLO1	glyoxalase I(GLO1)	Homo sapiens	
+GOLGA4	golgin A4(GOLGA4)	Homo sapiens	
+GOLGA7	golgin A7(GOLGA7)	Homo sapiens	
+GRN	granulin precursor(GRN)	Homo sapiens	
+GRB2	growth factor receptor bound protein 2(GRB2)	Homo sapiens	
+GHITM	growth hormone inducible transmembrane protein(GHITM)	Homo sapiens	
+GET3	guided entry of tail-anchored proteins factor 3, ATPase(GET3)	Homo sapiens	
+HSP90AA1	heat shock protein 90 alpha family class A member 1(HSP90AA1)	Homo sapiens	
+HSP90AB1	heat shock protein 90 alpha family class B member 1(HSP90AB1)	Homo sapiens	
+HSP90B1	heat shock protein 90 beta family member 1(HSP90B1)	Homo sapiens	
+HSPA13	heat shock protein family A (Hsp70) member 13(HSPA13)	Homo sapiens	
+HSPA4	heat shock protein family A (Hsp70) member 4(HSPA4)	Homo sapiens	
+HSPA5	heat shock protein family A (Hsp70) member 5(HSPA5)	Homo sapiens	
+HSPA8	heat shock protein family A (Hsp70) member 8(HSPA8)	Homo sapiens	
+HSPA9	heat shock protein family A (Hsp70) member 9(HSPA9)	Homo sapiens	
+HSPB1	heat shock protein family B (small) member 1(HSPB1)	Homo sapiens	
+HSPD1	heat shock protein family D (Hsp60) member 1(HSPD1)	Homo sapiens	
+HSPE1	heat shock protein family E (Hsp10) member 1(HSPE1)	Homo sapiens	
+HSPH1	heat shock protein family H (Hsp110) member 1(HSPH1)	Homo sapiens	
+HGS	hepatocyte growth factor-regulated tyrosine kinase substrate(HGS)	Homo sapiens	
+HNRNPA1	heterogeneous nuclear ribonucleoprotein A1(HNRNPA1)	Homo sapiens	
+HNRNPA2B1	heterogeneous nuclear ribonucleoprotein A2/B1(HNRNPA2B1)	Homo sapiens	
+HNRNPK	heterogeneous nuclear ribonucleoprotein K(HNRNPK)	Homo sapiens	
+HNRNPL	heterogeneous nuclear ribonucleoprotein L(HNRNPL)	Homo sapiens	
+HNRNPM	heterogeneous nuclear ribonucleoprotein M(HNRNPM)	Homo sapiens	
+HEXA	hexosaminidase subunit alpha(HEXA)	Homo sapiens	
+HINT1	histidine triad nucleotide binding protein 1(HINT1)	Homo sapiens	
+HYOU1	hypoxia up-regulated 1(HYOU1)	Homo sapiens	
+PPA1	inorganic pyrophosphatase 1(PPA1)	Homo sapiens	
+IMPDH2	inosine monophosphate dehydrogenase 2(IMPDH2)	Homo sapiens	
+IGF2R	insulin like growth factor 2 receptor(IGF2R)	Homo sapiens	
+IGFBP2	insulin like growth factor binding protein 2(IGFBP2)	Homo sapiens	
+ITM2B	integral membrane protein 2B(ITM2B)	Homo sapiens	
+ITM2C	integral membrane protein 2C(ITM2C)	Homo sapiens	
+ITFG1	integrin alpha FG-GAP repeat containing 1(ITFG1)	Homo sapiens	
+ITGA1	integrin subunit alpha 1(ITGA1)	Homo sapiens	
+ITGB1	integrin subunit beta 1(ITGB1)	Homo sapiens	
+ITSN1	intersectin 1(ITSN1)	Homo sapiens	
+IDH1	isocitrate dehydrogenase (NADP(+)) 1(IDH1)	Homo sapiens	
+IDH2	isocitrate dehydrogenase (NADP(+)) 2(IDH2)	Homo sapiens	
+IARS1	isoleucyl-tRNA synthetase 1(IARS1)	Homo sapiens	
+KPNB1	karyopherin subunit beta 1(KPNB1)	Homo sapiens	
+KIF3B	kinesin family member 3B(KIF3B)	Homo sapiens	
+LDHB	lactate dehydrogenase B(LDHB)	Homo sapiens	
+LAMB1	laminin subunit beta 1(LAMB1)	Homo sapiens	
+LAMC1	laminin subunit gamma 1(LAMC1)	Homo sapiens	
+LGMN	legumain(LGMN)	Homo sapiens	
+LTA4H	leukotriene A4 hydrolase(LTA4H)	Homo sapiens	
+LUM	lumican(LUM)	Homo sapiens	
+MACROH2A1	macroH2A.1 histone(MACROH2A1)	Homo sapiens	
+MACROH2A2	macroH2A.2 histone(MACROH2A2)	Homo sapiens	
+MGRN1	mahogunin ring finger 1(MGRN1)	Homo sapiens	
+MDH1	malate dehydrogenase 1(MDH1)	Homo sapiens	
+MDH2	malate dehydrogenase 2(MDH2)	Homo sapiens	
+MPST	mercaptopyruvate sulfurtransferase(MPST)	Homo sapiens	
+MTA1	metastasis associated 1(MTA1)	Homo sapiens	
+MAT2B	methionine adenosyltransferase 2 non-catalytic beta subunit(MAT2B)	Homo sapiens	
+MARS1	methionyl-tRNA synthetase 1(MARS1)	Homo sapiens	
+MTHFD1	methylenetetrahydrofolate dehydrogenase, cyclohydrolase and formyltetrahydrofolate synthetase 1(MTHFD1)	Homo sapiens	
+MCPH1	microcephalin 1(MCPH1)	Homo sapiens	
+MFGE8	milk fat globule EGF and factor V/VIII domain containing(MFGE8)	Homo sapiens	
+MSN	moesin(MSN)	Homo sapiens	
+MEGF8	multiple EGF like domains 8(MEGF8)	Homo sapiens	
+MVB12A	multivesicular body subunit 12A(MVB12A)	Homo sapiens	
+MYO1B	myosin IB(MYO1B)	Homo sapiens	
+MYH10	myosin heavy chain 10(MYH10)	Homo sapiens	
+MYH9	myosin heavy chain 9(MYH9)	Homo sapiens	
+MYL12B	myosin light chain 12B(MYL12B)	Homo sapiens	
+MYL6	myosin light chain 6(MYL6)	Homo sapiens	
+MYL6B	myosin light chain 6B(MYL6B)	Homo sapiens	
+MTMR2	myotubularin related protein 2(MTMR2)	Homo sapiens	
+MARCKS	myristoylated alanine rich protein kinase C substrate(MARCKS)	Homo sapiens	
+NACA	nascent polypeptide associated complex subunit alpha(NACA)	Homo sapiens	
+NCSTN	nicastrin(NCSTN)	Homo sapiens	
+NUMA1	nuclear mitotic apparatus protein 1(NUMA1)	Homo sapiens	
+NUTF2	nuclear transport factor 2(NUTF2)	Homo sapiens	
+NCL	nucleolin(NCL)	Homo sapiens	
+NUDT5	nudix hydrolase 5(NUDT5)	Homo sapiens	
+NUDT9	nudix hydrolase 9(NUDT9)	Homo sapiens	
+PAM	peptidylglycine alpha-amidating monooxygenase(PAM)	Homo sapiens	
+PPIB	peptidylprolyl isomerase B(PPIB)	Homo sapiens	
+PRPH	peripherin(PRPH)	Homo sapiens	
+PXDN	peroxidasin(PXDN)	Homo sapiens	
+PRDX1	peroxiredoxin 1(PRDX1)	Homo sapiens	
+PRDX2	peroxiredoxin 2(PRDX2)	Homo sapiens	
+PRDX4	peroxiredoxin 4(PRDX4)	Homo sapiens	
+PRDX5	peroxiredoxin 5(PRDX5)	Homo sapiens	
+PRDX6	peroxiredoxin 6(PRDX6)	Homo sapiens	
+PEX1	peroxisomal biogenesis factor 1(PEX1)	Homo sapiens	
+PI4KA	phosphatidylinositol 4-kinase alpha(PI4KA)	Homo sapiens	
+PIK3C2A	phosphatidylinositol-4-phosphate 3-kinase catalytic subunit type 2 alpha(PIK3C2A)	Homo sapiens	
+PFKL	phosphofructokinase, liver type(PFKL)	Homo sapiens	
+PFKP	phosphofructokinase, platelet(PFKP)	Homo sapiens	
+PGM1	phosphoglucomutase 1(PGM1)	Homo sapiens	
+PGD	phosphogluconate dehydrogenase(PGD)	Homo sapiens	
+PHGDH	phosphoglycerate dehydrogenase(PHGDH)	Homo sapiens	
+PGK1	phosphoglycerate kinase 1(PGK1)	Homo sapiens	
+PLBD2	phospholipase B domain containing 2(PLBD2)	Homo sapiens	
+PLCB1	phospholipase C beta 1(PLCB1)	Homo sapiens	
+PLPP1	phospholipid phosphatase 1(PLPP1)	Homo sapiens	
+PAICS	phosphoribosylaminoimidazole carboxylase and phosphoribosylaminoimidazolesuccinocarboxamide synthase(PAICS)	Homo sapiens	
+PFAS	phosphoribosylformylglycinamidine synthase(PFAS)	Homo sapiens	
+GART	phosphoribosylglycinamide formyltransferase, phosphoribosylglycinamide synthetase, phosphoribosylaminoimidazole synthetase(GART)	Homo sapiens	
+PLXNA1	plexin A1(PLXNA1)	Homo sapiens	
+PLXNB2	plexin B2(PLXNB2)	Homo sapiens	
+PABPC1	poly(A) binding protein cytoplasmic 1(PABPC1)	Homo sapiens	
+PCBP2	poly(rC) binding protein 2(PCBP2)	Homo sapiens	
+PCBP3	poly(rC) binding protein 3(PCBP3)	Homo sapiens	
+PTBP1	polypyrimidine tract binding protein 1(PTBP1)	Homo sapiens	
+PCOLCE	procollagen C-endopeptidase enhancer(PCOLCE)	Homo sapiens	
+PLOD1	procollagen-lysine,2-oxoglutarate 5-dioxygenase 1(PLOD1)	Homo sapiens	
+PFN1	profilin 1(PFN1)	Homo sapiens	
+PFN2	profilin 2(PFN2)	Homo sapiens	
+PDCD10	programmed cell death 10(PDCD10)	Homo sapiens	
+PHB1	prohibitin 1(PHB1)	Homo sapiens	
+PCNA	proliferating cell nuclear antigen(PCNA)	Homo sapiens	
+PA2G4	proliferation-associated 2G4(PA2G4)	Homo sapiens	
+P4HB	prolyl 4-hydroxylase subunit beta(P4HB)	Homo sapiens	
+PRCP	prolylcarboxypeptidase(PRCP)	Homo sapiens	
+PROM1	prominin 1(PROM1)	Homo sapiens	
+PSAP	prosaposin(PSAP)	Homo sapiens	
+PSMA1	proteasome 20S subunit alpha 1(PSMA1)	Homo sapiens	
+PSMA2	proteasome 20S subunit alpha 2(PSMA2)	Homo sapiens	
+PSMA3	proteasome 20S subunit alpha 3(PSMA3)	Homo sapiens	
+PSMA4	proteasome 20S subunit alpha 4(PSMA4)	Homo sapiens	
+PSMA5	proteasome 20S subunit alpha 5(PSMA5)	Homo sapiens	
+PSMA7	proteasome 20S subunit alpha 7(PSMA7)	Homo sapiens	
+PSMB1	proteasome 20S subunit beta 1(PSMB1)	Homo sapiens	
+PSMB2	proteasome 20S subunit beta 2(PSMB2)	Homo sapiens	
+PSMB4	proteasome 20S subunit beta 4(PSMB4)	Homo sapiens	
+PSMB5	proteasome 20S subunit beta 5(PSMB5)	Homo sapiens	
+PSMD2	proteasome 26S subunit ubiquitin receptor, non-ATPase 2(PSMD2)	Homo sapiens	
+PSMC5	proteasome 26S subunit, ATPase 5(PSMC5)	Homo sapiens	
+PSMD12	proteasome 26S subunit, non-ATPase 12(PSMD12)	Homo sapiens	
+PSMD3	proteasome 26S subunit, non-ATPase 3(PSMD3)	Homo sapiens	
+PSMD7	proteasome 26S subunit, non-ATPase 7(PSMD7)	Homo sapiens	
+PSME1	proteasome activator subunit 1(PSME1)	Homo sapiens	
+PALS2	protein associated with LIN7 2, MAGUK p55 family member(PALS2)	Homo sapiens	
+PDIA6	protein disulfide isomerase family A member 6(PDIA6)	Homo sapiens	
+PRKACB	protein kinase cAMP-activated catalytic subunit beta(PRKACB)	Homo sapiens	
+PPP1CA	protein phosphatase 1 catalytic subunit alpha(PPP1CA)	Homo sapiens	
+PPP2R1A	protein phosphatase 2 scaffold subunit Aalpha(PPP2R1A)	Homo sapiens	
+PTPRA	protein tyrosine phosphatase receptor type A(PTPRA)	Homo sapiens	
+PTPRS	protein tyrosine phosphatase receptor type S(PTPRS)	Homo sapiens	
+PCMT1	protein-L-isoaspartate (D-aspartate) O-methyltransferase(PCMT1)	Homo sapiens	
+PNP	purine nucleoside phosphorylase(PNP)	Homo sapiens	
+PKM	pyruvate kinase M1/2(PKM)	Homo sapiens	
+QDPR	quinoid dihydropteridine reductase(QDPR)	Homo sapiens	
+RDX	radixin(RDX)	Homo sapiens	
+RHOA	ras homolog family member A(RHOA)	Homo sapiens	
+RACK1	receptor for activated C kinase 1(RACK1)	Homo sapiens	
+RPL10A	ribosomal protein L10a(RPL10A)	Homo sapiens	
+RPL11	ribosomal protein L11(RPL11)	Homo sapiens	
+RPL23	ribosomal protein L23(RPL23)	Homo sapiens	
+RPL23A	ribosomal protein L23a(RPL23A)	Homo sapiens	
+RPL26	ribosomal protein L26(RPL26)	Homo sapiens	
+RPL27	ribosomal protein L27(RPL27)	Homo sapiens	
+RPL28	ribosomal protein L28(RPL28)	Homo sapiens	
+RPL3	ribosomal protein L3(RPL3)	Homo sapiens	
+RPL30	ribosomal protein L30(RPL30)	Homo sapiens	
+RPL31	ribosomal protein L31(RPL31)	Homo sapiens	
+RPL35A	ribosomal protein L35a(RPL35A)	Homo sapiens	
+RPL37A	ribosomal protein L37a(RPL37A)	Homo sapiens	
+RPL4	ribosomal protein L4(RPL4)	Homo sapiens	
+RPL5	ribosomal protein L5(RPL5)	Homo sapiens	
+RPS14	ribosomal protein S14(RPS14)	Homo sapiens	
+RPS16	ribosomal protein S16(RPS16)	Homo sapiens	
+RPS19	ribosomal protein S19(RPS19)	Homo sapiens	
+RPS2	ribosomal protein S2(RPS2)	Homo sapiens	
+RPS25	ribosomal protein S25(RPS25)	Homo sapiens	
+RPS3	ribosomal protein S3(RPS3)	Homo sapiens	
+RPS4X	ribosomal protein S4 X-linked(RPS4X)	Homo sapiens	
+RPS5	ribosomal protein S5(RPS5)	Homo sapiens	
+RPS8	ribosomal protein S8(RPS8)	Homo sapiens	
+RPSA	ribosomal protein SA(RPSA)	Homo sapiens	
+RPLP0	ribosomal protein lateral stalk subunit P0(RPLP0)	Homo sapiens	
+RPLP2	ribosomal protein lateral stalk subunit P2(RPLP2)	Homo sapiens	
+ROBO2	roundabout guidance receptor 2(ROBO2)	Homo sapiens	
+SCARB1	scavenger receptor class B member 1(SCARB1)	Homo sapiens	
+SCARB2	scavenger receptor class B member 2(SCARB2)	Homo sapiens	
+SFRP1	secreted frizzled related protein 1(SFRP1)	Homo sapiens	
+SEPTIN2	septin 2(SEPTIN2)	Homo sapiens	
+SEPTIN7	septin 7(SEPTIN7)	Homo sapiens	
+SQSTM1	sequestosome 1(SQSTM1)	Homo sapiens	
+SRSF7	serine and arginine rich splicing factor 7(SRSF7)	Homo sapiens	
+SHMT1	serine hydroxymethyltransferase 1(SHMT1)	Homo sapiens	
+SHMT2	serine hydroxymethyltransferase 2(SHMT2)	Homo sapiens	
+STK11	serine/threonine kinase 11(STK11)	Homo sapiens	
+STK24	serine/threonine kinase 24(STK24)	Homo sapiens	
+STK25	serine/threonine kinase 25(STK25)	Homo sapiens	
+STK26	serine/threonine kinase 26(STK26)	Homo sapiens	
+SERPINF1	serpin family F member 1(SERPINF1)	Homo sapiens	
+SARS1	seryl-tRNA synthetase 1(SARS1)	Homo sapiens	
+SSR4	signal sequence receptor subunit 4(SSR4)	Homo sapiens	
+SNRPD2	small nuclear ribonucleoprotein D2 polypeptide(SNRPD2)	Homo sapiens	
+SLC16A1	solute carrier family 16 member 1(SLC16A1)	Homo sapiens	
+SLC25A3	solute carrier family 25 member 3(SLC25A3)	Homo sapiens	
+SLC38A1	solute carrier family 38 member 1(SLC38A1)	Homo sapiens	
+SLC7A5	solute carrier family 7 member 5(SLC7A5)	Homo sapiens	
+SORD	sorbitol dehydrogenase(SORD)	Homo sapiens	
+SRI	sorcin(SRI)	Homo sapiens	
+SORL1	sortilin related receptor 1(SORL1)	Homo sapiens	
+SNX3	sorting nexin 3(SNX3)	Homo sapiens	
+SNX9	sorting nexin 9(SNX9)	Homo sapiens	
+SPTAN1	spectrin alpha, non-erythrocytic 1(SPTAN1)	Homo sapiens	
+SPTBN1	spectrin beta, non-erythrocytic 1(SPTBN1)	Homo sapiens	
+SPAG9	sperm associated antigen 9(SPAG9)	Homo sapiens	
+SMS	spermine synthase(SMS)	Homo sapiens	
+SND1	staphylococcal nuclease and tudor domain containing 1(SND1)	Homo sapiens	
+STMN1	stathmin 1(STMN1)	Homo sapiens	
+SDF4	stromal cell derived factor 4(SDF4)	Homo sapiens	
+SOD1	superoxide dismutase 1(SOD1)	Homo sapiens	
+SNAP23	synaptosome associated protein 23(SNAP23)	Homo sapiens	
+STXBP1	syntaxin binding protein 1(STXBP1)	Homo sapiens	
+TCP1	t-complex 1(TCP1)	Homo sapiens	
+TECTA	tectorin alpha(TECTA)	Homo sapiens	
+TUT4	terminal uridylyl transferase 4(TUT4)	Homo sapiens	
+TSPAN3	tetraspanin 3(TSPAN3)	Homo sapiens	
+TTC38	tetratricopeptide repeat domain 38(TTC38)	Homo sapiens	
+TXNDC16	thioredoxin domain containing 16(TXNDC16)	Homo sapiens	
+TXNDC5	thioredoxin domain containing 5(TXNDC5)	Homo sapiens	
+TXNRD1	thioredoxin reductase 1(TXNRD1)	Homo sapiens	
+TXN	thioredoxin(TXN)	Homo sapiens	
+TARS1	threonyl-tRNA synthetase 1(TARS1)	Homo sapiens	
+THRAP3	thyroid hormone receptor associated protein 3(THRAP3)	Homo sapiens	
+TALDO1	transaldolase 1(TALDO1)	Homo sapiens	
+TFRC	transferrin receptor(TFRC)	Homo sapiens	
+TAGLN2	transgelin 2(TAGLN2)	Homo sapiens	
+TKT	transketolase(TKT)	Homo sapiens	
+TSPO	translocator protein(TSPO)	Homo sapiens	
+TM7SF3	transmembrane 7 superfamily member 3(TM7SF3)	Homo sapiens	
+TM9SF2	transmembrane 9 superfamily member 2(TM9SF2)	Homo sapiens	
+TMED9	transmembrane p24 trafficking protein 9(TMED9)	Homo sapiens	
+TMEM59	transmembrane protein 59(TMEM59)	Homo sapiens	
+TMEM98	transmembrane protein 98(TMEM98)	Homo sapiens	
+TNPO1	transportin 1(TNPO1)	Homo sapiens	
+TPP1	tripeptidyl peptidase 1(TPP1)	Homo sapiens	
+WARS1	tryptophanyl-tRNA synthetase 1(WARS1)	Homo sapiens	
+TUBA1A	tubulin alpha 1a(TUBA1A)	Homo sapiens	
+TUBA4A	tubulin alpha 4a(TUBA4A)	Homo sapiens	
+TUBB2A	tubulin beta 2A class IIa(TUBB2A)	Homo sapiens	
+TUBB4B	tubulin beta 4B class IVb(TUBB4B)	Homo sapiens	
+TPT1	tumor protein, translationally-controlled 1(TPT1)	Homo sapiens	
+TSG101	tumor susceptibility 101(TSG101)	Homo sapiens	
+TTYH3	tweety family member 3(TTYH3)	Homo sapiens	
+YWHAB	tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein beta(YWHAB)	Homo sapiens	
+YWHAQ	tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein theta(YWHAQ)	Homo sapiens	
+YWHAZ	tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein zeta(YWHAZ)	Homo sapiens	
+UBA52	ubiquitin A-52 residue ribosomal protein fusion product 1(UBA52)	Homo sapiens	
+UBC	ubiquitin C(UBC)	Homo sapiens	
+UBE2D2	ubiquitin conjugating enzyme E2 D2(UBE2D2)	Homo sapiens	
+UBE2D3	ubiquitin conjugating enzyme E2 D3(UBE2D3)	Homo sapiens	
+UBE2N	ubiquitin conjugating enzyme E2 N(UBE2N)	Homo sapiens	
+UBE2V2	ubiquitin conjugating enzyme E2 V2(UBE2V2)	Homo sapiens	
+UBA1	ubiquitin like modifier activating enzyme 1(UBA1)	Homo sapiens	
+UFC1	ubiquitin-fold modifier conjugating enzyme 1(UFC1)	Homo sapiens	
+UACA	uveal autoantigen with coiled-coil domains and ankyrin repeats(UACA)	Homo sapiens	
+VPS13D	vacuolar protein sorting 13 homolog D(VPS13D)	Homo sapiens	
+VPS25	vacuolar protein sorting 25 homolog(VPS25)	Homo sapiens	
+VPS36	vacuolar protein sorting 36 homolog(VPS36)	Homo sapiens	
+VPS4A	vacuolar protein sorting 4 homolog A(VPS4A)	Homo sapiens	
+VCP	valosin containing protein(VCP)	Homo sapiens	
+VAT1	vesicle amine transport 1(VAT1)	Homo sapiens	
+VTA1	vesicle trafficking 1(VTA1)	Homo sapiens	
+VIM	vimentin(VIM)	Homo sapiens	
+VCL	vinculin(VCL)	Homo sapiens	
+VDAC1	voltage dependent anion channel 1(VDAC1)	Homo sapiens	
+VDAC3	voltage dependent anion channel 3(VDAC3)	Homo sapiens	
+VWA1	von Willebrand factor A domain containing 1(VWA1)	Homo sapiens	
