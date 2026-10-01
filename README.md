@@ -84,3 +84,16 @@ fasterq-dump SRR11467550 --split-files --threads 4
 The end-to-end WGS variant discovery and filtering pipeline was designed and executed within Galaxy, ensuring modularity and complete reproducibility:
 
 ![Galaxy Workflow Architecture](figures/galaxy_workflow_canvas.png)
+
+### Reproducing the Environment (Conda)
+
+You can reproduce the exact computational environment using Conda/Mamba:
+
+```bash
+# Clone the repository
+git clone [https://github.com/](https://github.com/)<your-username>/Mutational-Landscape-of-Neuroblastoma.git
+cd Mutational-Landscape-of-Neuroblastoma
+
+# Create and activate environment
+conda env create -f environment.yml
+conda activate neuroblastoma-wgs-env
