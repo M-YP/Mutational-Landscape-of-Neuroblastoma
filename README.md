@@ -97,3 +97,24 @@ cd Mutational-Landscape-of-Neuroblastoma
 # Create and activate environment
 conda env create -f environment.yml
 conda activate neuroblastoma-wgs-env
+
+### Protein-Protein Interaction (PPI) Network Topology
+
+| Target Hub | Average Node Degree | PPI Enrichment $p$-value | Biological Relevance |
+| :--- | :---: | :---: | :--- |
+| **GNAS** | 5.82 | $6.45 \times 10^{-7}$ | Core signalling switch; coordinated circuit disruption |
+| **B4GALNT1** | 5.64 | $1.06 \times 10^{-7}$ | GD2 ganglioside biosynthesis pathway (Immunotherapy target) |
+| **MYCN** | 6.18 | $4.61 \times 10^{-4}$ | Hallmark neuroblastoma oncogenic driver |
+
+## Therapeutic Targeting & Synthetic Lethality Rationale
+
+### Why Direct GNAS Targeting is Challenging ("Undruggable")
+1. **Loss-of-Function Nature:** Pharmacological restoration/agonism of inactivated tumour suppressors is significantly more difficult than inhibiting hyperactive kinases[cite: 18].
+2. **Pleiotropic Systemic Toxicity:** GNAS is ubiquitously expressed in human tissues, increasing the risk of off-target adverse effects[cite: 18].
+3. **Lack of Deep Pockets:** GNAS lacks deep hydrophobic druggable pockets suitable for conventional high-affinity small-molecule inhibitors[cite: 18].
+4. **Genomic Imprinting:** Asymmetric parental imprinting (maternal NESP55 vs. paternal XLαs) creates epigenetic complexity across cell lineages[cite: 18].
+
+### Proposed Precision Therapeutics & Synthetic Lethality
+* **Indirect Targeting via cAMP Modulation:** Utilizing cAMP-elevating agents (e.g., Forskolin analogs, PDE inhibitors) to bypass Gαs impairment and reverse adrenergic-to-mesenchymal transition[cite: 18].
+* **Transcriptional / Splicing Synthetic Lethality:** Exploiting defective spliceosome dependency using **CDK9** and **CDK12/13** inhibitors[cite: 18].
+* **In Vivo Preclinical Strategy:** Proposed conditional knock-in model using a neural crest-specific driver (**Phox2b-Cre**) to restrict mutation-driven phenotype validation to target adrenal/sympathetic lineages[cite: 18].
