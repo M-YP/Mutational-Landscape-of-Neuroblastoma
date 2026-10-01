@@ -1,0 +1,51 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# ==============================================================================
+# Script: extract_chr20_reads.sh
+# Target Accession: SRR11467550 (Neuroblastoma WGS sample)
+# Description: Automatically fetches raw paired-end reads from NCBI SRA,
+#              aligns them to the GRCh38 human reference, and extracts
+#              only the reads mapping to Chromosome 20 (GNAS locus).
+# ==============================================================================
+
+# Target SRA accession number
+ACCESSION="SRR11467550"
+OUT_DIR="chr20_reads"
+REF_GENOME="reference_grch38.fa"
+
+# Create output directory
+mkdir -p "${OUT_DIR}"
+
+# Step 1: Fetch raw reads directly from SRA via fasterq-dump
+echo "[1/4] Fetching raw paired-end reads for ${ACCESSION} from NCBI SRA..."
+fasterq-dump "${ACCESSION}" \
+    --split-files \
+    --outdir "${OUT_DIR}" \
+    --threads 4
+
+# Step 2: Align paired reads to GRCh38 and sort BAM by coordinates
+echo "[2/4] Aligning reads to GRCh38 reference genome using BWA-MEM2..."
+bwa-mem2 mem -t 4 "${REF_GENOME}" \
+    "${OUT_DIR}/${ACCESSION}_1.fastq" \
+    "${OUT_DIR}/${ACCESSION}_2.fastq" | \
+    samtools sort -@ 4 -o "${OUT_DIR}/${ACCESSION}.sorted.bam"
+
+# Step 3: Index the coordinate-sorted BAM file
+echo "[3/4] Indexing alignment file..."
+samtools index "${OUT_DIR}/${ACCESSION}.sorted.bam"
+
+# Step 4: Slice Chromosome 20 alignments and export to compressed FASTQ
+echo "[4/4] Slicing and exporting Chromosome 20 reads..."
+samtools view -b -h "${OUT_DIR}/${ACCESSION}.sorted.bam" chr20 20 | \
+    samtools collate -u -O - | \
+    samtools fastq \
+        -1 "${OUT_DIR}/${ACCESSION}_chr20_R1.fastq.gz" \
+        -2 "${OUT_DIR}/${ACCESSION}_chr20_R2.fastq.gz" \
+        -0 /dev/null -s /dev/null -
+
+# Cleanup uncompressed intermediate FASTQ files to save disk space
+echo "Cleaning up temporary raw fastq files..."
+rm -f "${OUT_DIR}/${ACCESSION}_1.fastq" "${OUT_DIR}/${ACCESSION}_2.fastq"
+
+echo "Pipeline finished successfully! Chromosome 20 FASTQ files saved in: ${OUT_DIR}/"
