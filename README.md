@@ -71,6 +71,14 @@ Direct small-molecule activation of GNAS is hindered by its "undruggable" struct
 
 The pipeline is implemented using standard bioinformatics tools and deployed on a cloud-based Galaxy infrastructure[cite: 3, 4]:
 
+### Data Retrieval & API Access
+Raw paired-end sequencing data can be retrieved programmatically using the ENA/SRA REST API:
+```bash
+# Query run metadata via ENA API
+curl -s "[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRR11467550&result=read_run&fields=run_accession,fastq_ftp&format=json](https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRR11467550&result=read_run&fields=run_accession,fastq_ftp&format=json)"
+
+# Or directly dump reads via SRA-toolkit
+fasterq-dump SRR11467550 --split-files --threads 4
 ## Computational Workflow Architecture
 
 The end-to-end WGS variant discovery and filtering pipeline was designed and executed within Galaxy, ensuring modularity and complete reproducibility:
