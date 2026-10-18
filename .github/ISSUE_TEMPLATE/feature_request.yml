@@ -1,0 +1,41 @@
+name: Feature request
+description: Suggest an enhancement or new functionality
+title: ""
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a feature. Please describe the problem you are trying to solve and the proposed solution.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem to solve
+      description: What gap or limitation are you trying to address?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: Describe the feature, workflow, or behavior you would like to see.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Describe any alternatives or workarounds you have used or considered.
+  - type: textarea
+    id: use_case
+    attributes:
+      label: Use case
+      description: Why is this useful? Who would benefit from it?
+    validations:
+      required: true
+  - type: textarea
+    id: examples
+    attributes:
+      label: Example or mockup
+      description: Include examples, pseudo-code, or screenshots if available.
