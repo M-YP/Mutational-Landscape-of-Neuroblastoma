@@ -75,15 +75,21 @@ The pipeline is implemented using standard bioinformatics tools and deployed on 
 Raw paired-end sequencing data can be retrieved programmatically using the ENA/SRA REST API:
 ```bash
 # Query run metadata via ENA API
-curl -s "[https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRR11467550&result=read_run&fields=run_accession,fastq_ftp&format=json](https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRR11467550&result=read_run&fields=run_accession,fastq_ftp&format=json)"
+curl -s "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRR11467550&result=read_run&fields=run_accession,fastq_ftp&format=json"
 
 # Or directly dump reads via SRA-toolkit
 fasterq-dump SRR11467550 --split-files --threads 4
+```
+
 ## Computational Workflow Architecture
 
 The end-to-end WGS variant discovery and filtering pipeline was designed and executed within Galaxy, ensuring modularity and complete reproducibility:
 
-![Galaxy Workflow Architecture](figures/galaxy_workflow_canvas.png)
+- Workflow file: [`Neuroblastoma_WGS_Pipeline.json`](Neuroblastoma_WGS_Pipeline.json). You can import this file into Galaxy.
+- Shared workflow on usegalaxy.eu: <https://usegalaxy.eu/u/m-yp/w/neuroblastoma-wgs-pipeline-imported-from-uploaded-file>
+- Steps: Trimmomatic → FastQC → BWA-MEM2 (hg38) → Picard MarkDuplicates → FreeBayes and DeepVariant → VCF intersect → VCF filter.
+
+For instructions, refer to [HOWTO.md](HOWTO.md).
 
 ### Reproducing the Environment (Conda)
 
@@ -91,12 +97,13 @@ You can reproduce the exact computational environment using Conda/Mamba:
 
 ```bash
 # Clone the repository
-git clone [https://github.com/](https://github.com/)<your-username>/Mutational-Landscape-of-Neuroblastoma.git
+git clone https://github.com/M-YP/Mutational-Landscape-of-Neuroblastoma.git
 cd Mutational-Landscape-of-Neuroblastoma
 
 # Create and activate environment
-conda env create -f environment.yml
+conda env create -f environment.yaml
 conda activate neuroblastoma-wgs-env
+```
 
 ### Protein-Protein Interaction (PPI) Network Topology
 
