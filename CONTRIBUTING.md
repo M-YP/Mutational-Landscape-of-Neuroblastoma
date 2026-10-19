@@ -31,7 +31,9 @@ You can contribute in several ways:
 
 ## Coding and workflow guidelines
 
-This repository is primarily shell-based and should remain portable and easy to run in a Unix-like environment.
+The pipeline is a Galaxy workflow (`Neuroblastoma_WGS_Pipeline.json`). The repository also contains a shell script (`Data/Raw/ToyDataset`) and a Conda environment (`environment.yaml`). Keep all of them portable and easy to run in a Unix-like environment.
+
+If you change a tool version in the workflow, also change it in `environment.yaml`.
 
 - Write clear, maintainable shell scripts.
 - Use descriptive variable names and comments where logic is non-obvious.

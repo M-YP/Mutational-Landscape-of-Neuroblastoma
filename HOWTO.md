@@ -1,118 +1,122 @@
 # HOWTO — Mutational-Landscape-of-Neuroblastoma
 
-This HOWTO gives a quick, practical guide to get the pipeline running, explains expected inputs/outputs, and lists common troubleshooting tips.
-
-> Note: This repository uses shell-based scripts. Adjust paths and environment variables to your system.
+This guide tells you how to run the pipeline, which inputs it uses and which outputs it makes. It also gives solutions to known problems.
 
 ## Overview
-This pipeline standardizes mutation analysis for neuroblastoma and extracts candidate clinically relevant variants, intrinsically disordered regions (IDRs), differentially methylated regions (DMRs), and neoantigens.
 
-## Prerequisites
-- Unix-like OS (Linux or macOS)
-- Bash (or compatible shell)
-- Common bioinformatics tools (install as needed):
-  - samtools
-  - bcftools
-  - bedtools
-  - bwa or other aligner used by the pipeline
-  - python3 (for auxiliary scripts, if any)
-  - R (if downstream plotting/DMR scripts require it)
-- Sufficient disk space for sequencing files (FASTQ/BAM) and intermediate results
+The pipeline is a Galaxy workflow. The workflow file is `Neuroblastoma_WGS_Pipeline.json`. The workflow finds and filters the variants in whole-genome sequencing (WGS) data of the neuroblastoma sample SRR11467550.
 
-Install system packages with your package manager, for example (Debian/Ubuntu):
+The workflow has these steps:
 
-```bash
-sudo apt update
-sudo apt install -y samtools bcftools bedtools bwa python3 r-base
-```
+| Step | Tool | Function |
+|---|---|---|
+| 1 | Trimmomatic 0.39 | Removes the adapters and the low-quality bases from the reads |
+| 2 | FastQC | Makes a quality report of the trimmed reads |
+| 3 | BWA-MEM2 2.2.1 | Aligns the reads to the hg38 reference genome |
+| 4 | Picard MarkDuplicates 3.1.1 | Marks the duplicate reads |
+| 5 | FreeBayes 1.3.10 | Calls the variants |
+| 6 | DeepVariant 1.5.0 | Calls the variants (second caller) |
+| 7 | vcfvcfintersect | Keeps only the variants that the two callers find (window: 30 bp) |
+| 8 | vcffilter | Keeps only the variants with `QUAL > 20 & DP > 10` |
 
-## Installation / Setup
+There is no local driver script. You can run the full pipeline in Galaxy (procedure A). You can also use the toy dataset script to get a small chr20 dataset (procedure B).
+
+## Repository contents
+
+| Path | Contents |
+|---|---|
+| `Neuroblastoma_WGS_Pipeline.json` | The Galaxy workflow |
+| `environment.yaml` | The Conda environment `neuroblastoma-wgs-env` for local tools |
+| `Data/Raw/` | The SRA manifest, the Ensembl variant export and the toy dataset script (`ToyDataset`) |
+| `Data/Processed/` | The results of enrichment, ontology and database queries (DAVID, PANTHER, ClinVar, cBioPortal) |
+| `Data/Sequences/` | The protein sequences from STRING |
+| `Outputs/Figures/` | The STRING networks, the g:Profiler results and the link to the Galaxy workflow |
+| `Outputs/Tables/` | The COSMIC table and the chart of the genes with the most mutations |
+
+The files in `Data/` and `Outputs/` are the research results. Do not change them.
+
+## Procedure A: Run the full pipeline in Galaxy
+
+### Prerequisites
+
+- An account on a Galaxy server that has the hg38 reference genome, for example <https://usegalaxy.eu>.
+
+### Procedure
+
+1. Log in to Galaxy.
+2. Import the workflow. Use one of these two methods:
+   - Open the shared workflow: <https://usegalaxy.eu/u/m-yp/w/neuroblastoma-wgs-pipeline-imported-from-uploaded-file>. Then click **Import**.
+   - Go to **Workflows** > **Import**. Then upload the file `Neuroblastoma_WGS_Pipeline.json`.
+3. Get the reads of SRR11467550 into your history. Use the Galaxy tool **Faster Download and Extract Reads in FASTQ** (fasterq-dump). Set the accession to `SRR11467550`.
+4. Make sure that the reads are in a **paired** collection (forward and reverse).
+5. Run the workflow. For the input **Paired_Reads**, select the paired collection.
+6. When the workflow is complete, download the output of the step **Filter High-Quality Variants**.
+
+## Procedure B: Make the chr20 toy dataset locally
+
+The script `Data/Raw/ToyDataset` downloads the reads of SRR11467550, aligns them to GRCh38, and keeps only the reads on chromosome 20. The GNAS gene is on chromosome 20.
+
+### Prerequisites
+
+- Linux or macOS with Bash.
+- Conda or Mamba.
+- A FASTA file of the GRCh38 reference genome, with the name `reference_grch38.fa`, in the directory where you run the script.
+- Enough disk space and time. The script downloads the full WGS run before it removes the reads that are not on chromosome 20.
+
+### Procedure
+
 1. Clone the repository:
 
-```bash
-git clone https://github.com/M-YP/Mutational-Landscape-of-Neuroblastoma.git
-cd Mutational-Landscape-of-Neuroblastoma
-```
+   ```bash
+   git clone https://github.com/M-YP/Mutational-Landscape-of-Neuroblastoma.git
+   cd Mutational-Landscape-of-Neuroblastoma
+   ```
 
-2. Make scripts executable (if needed):
+2. Make the Conda environment and activate it:
 
-```bash
-chmod -R +x scripts || true
-```
+   ```bash
+   conda env create -f environment.yaml
+   conda activate neuroblastoma-wgs-env
+   ```
 
-3. Inspect README or scripts/ directories to learn entry points. If the repo uses a single driver script (e.g., `run.sh` or `pipeline.sh`), open it to see required arguments and config files.
+3. Make the BWA-MEM2 index of the reference genome:
 
-## Configuration
-- Look for a configuration file (examples: `config.conf`, `pipeline.config`, or `examples/config.yaml`).
-- Required configuration items typically include:
-  - input directory or list of FASTQ/BAM files
-  - reference genome path (FASTA + index)
-  - sample metadata (sample IDs, tumor/normal labels)
-  - output directory
-  - tool-specific options (e.g., bwa threads)
+   ```bash
+   bwa-mem2 index reference_grch38.fa
+   ```
 
-Create a `config.example` or copy an existing example and edit values to match your environment.
+4. Run the script:
 
-## Quickstart (typical workflow)
-1. Prepare inputs (FASTQ or aligned BAMs) and a reference genome.
-2. Set up a config file or supply CLI arguments.
-3. Run the main pipeline script. Example (replace with actual script name after checking repo):
+   ```bash
+   bash Data/Raw/ToyDataset
+   ```
 
-```bash
-# example; replace `run_pipeline.sh` with the real entrypoint
-./run_pipeline.sh --config config.yaml --outdir results --threads 8
-```
+5. Find the output files in the directory `chr20_reads/`:
+   - `SRR11467550_chr20_R1.fastq.gz`
+   - `SRR11467550_chr20_R2.fastq.gz`
 
-4. Monitor the logs (stdout/stderr or log files) and inspect the `results` directory.
-
-## Expected inputs
-- FASTQ files (paired or single-end) or pre-aligned BAM files
-- Reference genome FASTA (indexed)
-- Optional: sample sheet (CSV/TSV) describing sample IDs and groups
+You can use these two files as a small input for procedure A.
 
 ## Expected outputs
-- Aligned BAM files (if alignment performed)
-- Variant call files (VCF)
-- Annotated variants (e.g., VEP/ANNOVAR output)
-- Reports or summary tables for IDRs, DMRs, and neoantigen predictions
-- Plots and QC metrics (if scripts produce them)
 
-## Running parts of the pipeline
-If you want to run or debug individual steps, find the corresponding script (e.g., `align.sh`, `call_variants.sh`, `annotate.sh`) and run it with the required arguments. Typical pattern:
-
-```bash
-./scripts/align.sh sample_R1.fastq.gz sample_R2.fastq.gz sample_name /path/to/ref.fa
-./scripts/call_variants.sh sample.bam /path/to/ref.fa
-```
+| Source | Output |
+|---|---|
+| Galaxy step 2 (FastQC) | Quality report (HTML and text) |
+| Galaxy step 4 (Picard) | BAM file with marked duplicates, and duplicate metrics |
+| Galaxy steps 5 and 6 | One VCF file from each variant caller, and the DeepVariant HTML report |
+| Galaxy step 8 | The VCF file with the high-quality variants. This is the final output. |
+| Procedure B | Two compressed FASTQ files of the chromosome 20 reads |
 
 ## Troubleshooting
-- Permission denied: ensure scripts are executable and you have write rights to the output directory.
-- Missing tools: install required tools listed in Prerequisites.
-- Reference mismatch errors: make sure the same reference FASTA (and index) are used for alignment and variant calling.
-- Large memory usage: run heavy steps on a machine with more RAM or split work by chromosome/sample if supported.
 
-## Testing & Validation
-- If the repo includes test or example data, run the pipeline on it first to validate your environment.
-- Compare produced VCFs/QC metrics against expected example results (if provided).
+| Problem | Possible cause | Solution |
+|---|---|---|
+| The workflow does not accept the input. | The reads are not in a paired collection. | Put the forward and reverse reads into one paired collection. |
+| Galaxy cannot find a tool or a tool version. | The Galaxy server does not have the tool installed. | Use usegalaxy.eu, or ask the administrator of your server to install the tool. |
+| The script stops with a region error from `samtools view`. | The reference genome has only one of the names `chr20` and `20`. | In the script, remove the chromosome name that is not in your reference. |
+| BWA-MEM2 stops with an index error. | The reference genome has no index. | Do step 3 of procedure B. |
+| The disk becomes full. | The script downloads the full WGS run. | Use a disk with more free space, or set `OUT_DIR` in the script to a larger disk. |
 
-## Contributing
-- Follow existing code style for shell scripts.
-- Submit issues for bugs or missing documentation.
-- Open a PR with a clear description and a short example showing the change.
+## Contact
 
-## Suggested next improvements (optional)
-- Add an example `config.yaml` and a minimal example dataset in `examples/`.
-- Provide a Dockerfile or Singularity definition for reproducible environments.
-- Add CI checks that run a lightweight test on example data.
-
-## Contact / Maintainers
-If you have questions, open a GitHub issue: https://github.com/M-YP/Mutational-Landscape-of-Neuroblastoma/issues
-
----
-
-If you want, I can:
-- Add this HOWTO.md to the repository now (I will commit it to the default branch).  
-- Create an examples/ directory with a minimal config example.  
-- Create an issue to request review from the repo owner or a specific collaborator.
-
-Tell me which of the above you'd like me to do next.
+To report a problem or to ask a question, open an issue: <https://github.com/M-YP/Mutational-Landscape-of-Neuroblastoma/issues>
